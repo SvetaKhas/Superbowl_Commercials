@@ -12,7 +12,7 @@ Let's look at the data first:
 
 <b> 1a) Can you identify any patterns for the most successful commercials on YouTube? </b> <br>
 I decided to define a successful commercial as average Youtube likes. By that definition, attributes common to top commercials tended
-to be  <p style="color:=#F87217"> funny, show product quickly and use a celebrity. </p> 
+to be funny, show product quickly and use a celebrity. 
 
 ![image](https://user-images.githubusercontent.com/85653222/206768645-458c1e37-6647-4145-b5bf-6e2709db8eb0.png)
 
