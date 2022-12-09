@@ -3,7 +3,8 @@
 
   This data set called "Super Bowl Commercials" comes from Maven Analytics: https://www.mavenanalytics.io/data-playground. <br>
 It looks at Super Bowl commercials for 10 popular brands from 2000 to 2021, including links to each and additional information about 
-the length, estimated cost, YouTube statistics, TV viewers, and defining characteristics. I came up with my own questions that I wanted to answer.
+the length, estimated cost, YouTube statistics, TV viewers, and defining characteristics. Data_dictionary file describing each column in detail is included.
+I came up with my own set of questions that I answered using SQL.
 
 Looking at all the data first:
 
