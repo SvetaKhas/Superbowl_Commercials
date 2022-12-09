@@ -1,7 +1,7 @@
 # Superbowl_Commercials
 Analysis of Superbowl Commercials using SQL
 
-This data set called "Super Bowl Commercials" comes from Maven Analytics: https://www.mavenanalytics.io/data-playground
+This data set called "Super Bowl Commercials" comes from Maven Analytics: https://www.mavenanalytics.io/data-playground. <br>
 It looks at Super Bowl commercials for 10 popular brands from 2000 to 2021, including links to each and additional information about 
 the length, estimated cost, YouTube statistics, TV viewers, and defining characteristics. 
 
