@@ -6,7 +6,7 @@ It looks at Super Bowl commercials for 10 popular brands from 2000 to 2021, incl
 the length, estimated cost, YouTube statistics, TV viewers, and defining characteristics. Data_dictionary file describing each column in detail is included.
 I came up with my own set of questions that I answered using SQL.
 
-Looking at all the data first:
+Let's look at the data first:
 
 ![image](https://user-images.githubusercontent.com/85653222/206768612-513ea5a7-935d-4627-a7b8-a333f2164a8c.png)
 
