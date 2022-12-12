@@ -3,7 +3,7 @@
 about the length, estimated cost, YouTube statistics, TV viewers, and defining characteristics. */
 
 SELECT *
-FROM [PortfolioProject].[dbo].[SuperBowlAds] 
+FROM [PortfolioProject].[dbo].[SuperBowlAds];
 
 --1a) Can you identify any patterns for the most successful commercials on YouTube? 
 --I decided to define a successful commercial as average Youtube likes. By that definition, attributes common to top commercials tended to be funny, show product quickly and use a celebrity.
@@ -15,7 +15,7 @@ SELECT Year, Brand, Superbowl_Ads_link, Youtube_Likes,
 	   Funny, Shows_Product_Quickly,Celebrity, Uses_sex, Danger, Patriotic, Animals
 FROM [PortfolioProject].[dbo].[SuperBowlAds]
 ORDER BY Annual_avg_likes DESC
-OFFSET 0 ROWS FETCH FIRST 10 ROWS ONLY
+OFFSET 0 ROWS FETCH FIRST 10 ROWS ONLY;
 
 -- 1b) Top 3 brands that produced most successful commercials. 
 -- Defined as the ones with the highest number of successful commericials, the top 3 brands are Doritos, NFL and Coca-Cola.
@@ -42,7 +42,7 @@ ORDER BY ad_count DESC;
 SELECT Brand, COUNT(*) AS ad_count,SUM(Youtube_Views) AS total_youtube_views, SUM(Youtube_Likes) AS total_youtube_likes, SUM(TV_Viewers) AS total_tv_viewers
 FROM [PortfolioProject].[dbo].[SuperBowlAds]
 GROUP BY Brand
-ORDER BY total_youtube_likes DESC   --Change to total_youtube_views, total_youtube_likes or total_tv_viewers in order to answer other parts of the question
+ORDER BY total_youtube_likes DESC;   --Change to total_youtube_views, total_youtube_likes or total_tv_viewers in order to answer other parts of the question
 
 /*
 3) Do all/any of the top 3 brands as found in 1b) do things differently than other brands on average?
@@ -80,7 +80,7 @@ WITH Ranked_views AS
 SELECT *
 FROM Ranked_views
 WHERE top_views_oftheyear=1
-ORDER BY Year, Brand
+ORDER BY Year, Brand;
 
 /*Different spin on seeing commercial characteristics trend across time is by looking at attribute as a percentage of total ads for the year.
 Use of celebrity has spiked  while use of sex dipped in recent years. Funny commercials though used fairly consistently throughout the years experienced
@@ -95,7 +95,7 @@ SELECT Year, COUNT(*) AS total_commercials,
        CONCAT(100*SUM(CASE WHEN Animals='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as animals,
        CONCAT(100*SUM(CASE WHEN Uses_Sex='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as usessex
 FROM [PortfolioProject].[dbo].[SuperBowlAds]
-GROUP BY Year
+GROUP BY Year;
 
 
 
