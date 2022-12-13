@@ -87,8 +87,8 @@ Use of celebrity has spiked  while use of sex dipped in recent years. Funny comm
 a big dip in 2017 offset by patriotic ads.*/
 
 SELECT Year, COUNT(*) AS total_commercials,
-	   CONCAT(100*SUM(CASE WHEN Shows_Product_Quickly='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as showsquickly,
-	   CONCAT(100*SUM(CASE WHEN Funny='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as funny,
+       CONCAT(100*SUM(CASE WHEN Shows_Product_Quickly='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as showsquickly,
+       CONCAT(100*SUM(CASE WHEN Funny='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as funny,
        CONCAT(100*SUM(CASE WHEN Patriotic='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as patriotic,
        CONCAT(100*SUM(CASE WHEN Celebrity='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as celebrity,
        CONCAT(100*SUM(CASE WHEN Danger='TRUE' THEN 1 ELSE 0 END)/COUNT(*),'%') as danger,
