@@ -39,7 +39,7 @@ Doritos doesn't spend a ton on their ads and keep them fairly short, they are al
 ![image](https://user-images.githubusercontent.com/85653222/206768765-d38c1aab-f704-41ef-87d5-a8d007d56038.png)
 
 <b> 4) For the top commercials of each year, are there any trends in the last 6 years? </b> <br>
-In the past 6 years, sex has not been used in an ad celebrity appearances became more prominent. Having witty ads has gotten slightly less popular but there is an increased use of patriotism to offset it. Having a danger attribute like violence, threats of violence, injuries, fighting or guns is on the rise as well. 
+In the past 6 years, sex has not been used in an ad while celebrity appearances became more frequent. Having witty ads has gotten slightly less popular while use of patriotism increased. Having a danger attribute like violence, threats of violence, injuries, fighting or guns is on the rise as well. 
 
 ![image](https://user-images.githubusercontent.com/85653222/206769001-e5afa344-9c62-4a0a-ae54-eb4f668021bd.png)
 
